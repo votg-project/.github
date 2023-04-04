@@ -9,6 +9,6 @@ Current architecture: _(subject to change at any time)_
 
 I did succesfully established a tunnel with a ePDG server of MTS (Russia) back in Summer 2020 and in November 2022, but currently did not made progress any further. Also, at this time I am unable to establish tunnel with some other domestic major mobile operators which I had SIM cards of.
 
-**Unfortunately, the development pacing is very slow due to author's lack of knowledge, and very little easy-to-follow information availability on the internet.** The development of this project is the only learning opportunity for me regarding IMS internals. If you want to help - please, contact me!
+**Unfortunately, the development pacing is very slow due to author's lack of knowledge, and very little easy-to-follow information availability on the internet.** The development of this project is the only learning opportunity for me regarding EPC and IMS internals. If you want to help - please, contact me!
 
 In development by [leenr](https://github.com/leenr).
