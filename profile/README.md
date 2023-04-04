@@ -1,6 +1,6 @@
 **VoTG** - Voice over Telegram
 
-**Work-in-progress** project (in very early stages) to leverage [VoWiFi](https://en.wikipedia.org/wiki/Voice_over_WLAN) to make cellular call and SMS accessible via Telegram - anywhere in the world, no GSM coverage needed - only Internet access.
+**Work-in-progress** project (in very early stages) to leverage [VoWiFi](https://en.wikipedia.org/wiki/Voice_over_WLAN) to make cellular call and SMS (via your own SIM card) accessible via Telegram - anywhere in the world, no GSM coverage needed - only a gateway (e.g. Raspberry Pi) with a smart card reader with SIM card in it and Internet access.
 
 Current architecture: _(subject to change at any time)_
 1. SIM card connector (closed-source PoC available), which handles all communications with a SIM.
