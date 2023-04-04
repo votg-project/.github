@@ -1,8 +1,14 @@
 **VoTG** - Voice over Telegram
 
-Leverages [VoWiFi](https://en.wikipedia.org/wiki/Voice_over_WLAN) to make cellular call and SMS accessible via Telegram - anywhere in the world on domestic terms, no GSM coverage needed - only Internet access.
+**Work-in-progress** project (in very early stages) to leverage [VoWiFi](https://en.wikipedia.org/wiki/Voice_over_WLAN) to make cellular call and SMS accessible via Telegram - anywhere in the world, no GSM coverage needed - only Internet access.
 
-Currently, it will be using slightly modified [StrongSwan](https://github.com/votg-project/strongswan) to connect to mobile operator's ePDG.
-I did succesfully established tunnel using it with a ePDG server of MTS (Russia) back in Summer 2020.
+Current architecture: _(subject to change at any time)_
+1. SIM card connector (closed-source PoC available), which handles all communications with a SIM.
+2. Slightly modified [StrongSwan](https://github.com/votg-project/strongswan) to connect to mobile operator's ePDG.
+3. TBD
+
+I did succesfully established a tunnel with a ePDG server of MTS (Russia) back in Summer 2020 and in November 2022, but currently did not made progress any further. Also, at this time I am unable to establish tunnel with some other domestic major mobile operators which I had SIM cards of.
+
+**Unfortunately, the development pacing is very slow due to author's lack of knowledge, and very little easy-to-follow information availability on the internet.** The development of this project is the only learning opportunity for me regarding IMS internals. If you want to help - please, contact me!
 
 In development by [leenr](https://github.com/leenr).
